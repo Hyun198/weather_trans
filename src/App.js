@@ -85,33 +85,6 @@ function App() {
             <span className="value">5 km/h</span>
           </div>
 
-          {/* <ul className='days-list'>
-            <li>
-              <i class='bx bxs-cloud' ></i>
-              <span>{date[0]}</span>
-              <span className='day-temp'>℃</span>
-            </li>
-            <li>
-              <i class='bx bx-cloud-rain' ></i>
-              <span>{date[1]}</span>
-              <span className='day-temp'>℃</span>
-            </li>
-            <li>
-              <i class='bx bx-cloud-snow' ></i>
-              <span>{date[2]}</span>
-              <span className='day-temp'>℃</span>
-            </li>
-            <li>
-              <i class='bx bx-cloud-drizzle' ></i>
-              <span>{date[3]}</span>
-              <span className='day-temp'>℃</span>
-            </li>
-            <li>
-              <i class='bx bx-cloud-drizzle' ></i>
-              <span>{date[4]}</span>
-              <span className='day-temp'>℃</span>
-            </li>
-          </ul> */}
 
           <ul className='days-list'>
             {date.map((dateItem, index) => (
